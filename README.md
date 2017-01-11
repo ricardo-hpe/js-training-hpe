@@ -11,11 +11,13 @@
 // is for comments  
 ```
 
+#Dialogs
 ```
 If you wanna open a dialog and receive an answer from the user, here's the answer:
 confirm("Any text to accept");
 ```
 
+#Print something
 ```
 If you wanna print something, here's the solution:
 console.log()
