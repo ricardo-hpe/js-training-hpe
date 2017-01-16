@@ -11,6 +11,6 @@ So... Shall we get started? */
 2.- Review the length of at least 5 words/sentences.
 3.- Declare 5 different variables, it can be either a number or a String.
 4.- Ask a user 5 different questions.
-5.- Declare at least 5 arrays, either only numbers, Strings or mixed.
+5.- Declare at least 5 arrays, either only numbers, Strings or mixed.*/
 
 // TIP: If you wanna review your results, go to http://www.webtoolkitonline.com/javascript-tester.html
