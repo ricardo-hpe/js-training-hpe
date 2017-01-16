@@ -1,6 +1,22 @@
 //Ricardo Arostegui
 // Small game for practicing
-var userChoice = prompt("Do you choose rock, paper or scissors?");
+//javascript:(function () { var el = document.createElement("script"); el.src = "http://:C/Users/gaizkaar/Documents/JS/js-training-hpe/game1.js"; document.body.appendChild(el); })();
+// var ele = document.createElement("script");
+// var scriptPath = "http://localhost:127.0.0.1:8124/game1.js" //verify the script path
+// ele.setAttribute("src",scriptPath);
+// document.head.appendChild(ele)
+
+var http = require('http');
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+}).listen(8060, "127.0.0.1");
+console.log('Server running at http://127.0.0.1:8060/');
+
+var prompt = require('prompt');
+prompt.start();
+
+prompt.get("Do you choose rock, paper or scissors?", function userChoice);
 var computerChoice = Math.random();
 if (computerChoice < 0.34) {
 	computerChoice = "rock";
