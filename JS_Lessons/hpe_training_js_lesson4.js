@@ -6,6 +6,7 @@ Go to https://github.com/ricardo-hpe/js-training-hpe and review the content insi
 
 /*
 Exercises for lesson 4:
+1. Create a simple function.
 */
 
 // HotTip: Wanna actually see console.log results? Then go to https://jsbin.com/metozelize/edit?js,console,output
